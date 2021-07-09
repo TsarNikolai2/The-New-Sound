@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.23/OSX64-clang" 1625795311
+<REAPER_PROJECT 0.1 "6.23/OSX64-clang" 1625795610
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 3.13924050632911
-  ZOOM 15.08323759629639 0 0
+  CURSOR 5.41772151898734
+  ZOOM 14.74337515196482 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -100,7 +100,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -148,7 +148,7 @@
       CHANMODE 0
       GUID {376571AC-D278-6146-9B3C-9612FE381C89}
       <SOURCE WAVE
-        FILE "/Users/sean/Documents/GitHub/The-New-Sound/Sean/04-Gain 2-210624_2304-01-glued.wav"
+        FILE "04-Gain 2-210624_2304-01-glued.wav"
       >
       TAKE SEL
       NAME "04-Gain 2-210624_2304-01-glued render 001.wav"
@@ -158,7 +158,7 @@
       CHANMODE 0
       GUID {620BF691-EA14-9D4C-BB18-2B271FA88E0F}
       <SOURCE WAVE
-        FILE "/Users/sean/Documents/GitHub/The-New-Sound/Sean/04-Gain 2-210624_2304-01-glued render 001.wav"
+        FILE "04-Gain 2-210624_2304-01-glued render 001.wav"
       >
     >
   >
