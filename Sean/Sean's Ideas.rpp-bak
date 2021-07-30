@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.23/OSX64-clang" 1625798403
+<REAPER_PROJECT 0.1 "6.23/OSX64-clang" 1626494806
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 804.65864588788997
-  ZOOM 1.54429048880845 489 0
+  CURSOR 165.01655306718592
+  ZOOM 3.27605841196314 0 0
   VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
@@ -64,7 +64,7 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 -1 0 0 0 0 -1 -1 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_VOLUME 0.3838732234301 0 -1 -1 1
   MASTER_FX 1
   MASTER_SEL 0
   <MASTERPLAYSPEEDENV
@@ -85,11 +85,11 @@
     PT 0.000000000000 120.0000000000 1 262148 0 1
     PT 2.000000000000 130.0000000000 1 262147 0 1
     PT 28.307692307692 158.0000000000 1
-    PT 165.016553067186 94.0000000000 1 262148 1 1
-    PT 226.293148811867 150.0000000000 1 262147 0 1
-    PT 604.293148811867 152.0000000000 1
-    PT 760.214201443446 216.0000000000 1
-    PT 884.658645887890 149.0000000000 1 262148 0 1
+    PT 327.927945472249 94.0000000000 1 262148 1 1
+    PT 424.949222067994 150.0000000000 1 262147 0 1
+    PT 614.549222067994 152.0000000000 1
+    PT 770.470274699573 216.0000000000 1
+    PT 894.914719144017 149.0000000000 1 262148 0 1
   >
   MARKER 1 2 "Heavy Riffs" 0 0 1 B {777BFF01-D5A4-9946-9B5F-33E03117D4F6}
   <PROJBAY
@@ -108,7 +108,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 1
-    REC 1 1 1 0 0 0 0
+    REC 0 1 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -339,9 +339,32 @@
       >
     >
     <ITEM
-      POSITION 170.12294178112953
+      POSITION 165.0165625
       SNAPOFFS 0
-      LENGTH 21.60975
+      LENGTH 24.99372916666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1CC8172F-4A67-5F4E-99AF-9D12EE9EEE99}
+      IID 527
+      NAME "01-Gain 1-210715_2134.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.55733333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5CBDFAB-EC0C-8040-BA8D-E42AFA67B78E}
+      RECPASS 56
+      <SOURCE WAVE
+        FILE "01-Gain 1-210715_2134.wav"
+      >
+    >
+    <ITEM
+      POSITION 350.26837100416452
+      SNAPOFFS 0
+      LENGTH 21.60974999999956
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -372,21 +395,21 @@
       >
     >
     <ITEM
-      POSITION 665.47735933818285
+      POSITION 671.39132733115162
       SNAPOFFS 0
-      LENGTH 20.52631578947319
+      LENGTH 1.95486327967592
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.053756 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {C8F15175-4558-8C44-8510-6E56D714D087}
       IID 517
       NAME "01-Gain 1-210625_2302.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 4.73866666666667
-      PLAYRATE 1 1 0 -1 0 0.0025
+      SOFFS 5.92287719298239
+      PLAYRATE 0.99999999999976 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {B766940E-EB84-6F4F-B1F9-C53C54C993C4}
       RECPASS 50
@@ -396,8 +419,8 @@
       TAKE
       NAME "01-Gain 1-210625_2302 render 001.wav"
       TAKEVOLPAN 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
+      SOFFS 1.18421052631572
+      PLAYRATE 0.99999999999976 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F1CAEF3B-03A5-AD42-B2A7-1A1295ACEED5}
       <SOURCE WAVE
@@ -406,8 +429,8 @@
       TAKE SEL
       NAME "01-Gain 1-210708_2234-01.wav"
       TAKEVOLPAN 0 1 -1
-      SOFFS 5.5279843381828
-      PLAYRATE 1 1 0 -1 0 0.0025
+      SOFFS 6.71219486449852
+      PLAYRATE 0.99999999999976 1 0 -1 0 0.0025
       CHANMODE 0
       TAKECOLOR 19107565 B
       GUID {3F8739AA-E20C-1F47-84E5-0C4AD055FD64}
@@ -417,15 +440,105 @@
       >
     >
     <ITEM
-      POSITION 800.2142014434462
+      POSITION 674.12949151107182
       SNAPOFFS 0
-      LENGTH 72.56440544868531
+      LENGTH 9.4986779253436
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.05683 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FCCFF51A-CE43-4C68-99D1-2E3393E3510D}
+      IID 521
+      NAME "01-Gain 1-210625_2302.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.87156768869196
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2FC09F84-ACBB-4755-944C-CFF18B09B8C5}
+      RECPASS 50
+      <SOURCE WAVE
+        FILE "01-Gain 1-210625_2302.wav"
+      >
+      TAKE
+      NAME "01-Gain 1-210625_2302 render 001.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 3.13290102202529
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3420F66-F160-4662-B32C-849C281FFFBE}
+      <SOURCE WAVE
+        FILE "01-Gain 1-210625_2302 render 001.wav"
+      >
+      TAKE SEL
+      NAME "01-Gain 1-210708_2234-01.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 8.66088536020809
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 19107565 B
+      GUID {6EB772EB-CDC4-41C7-9FC7-9D5497B58324}
+      RECPASS 54
+      <SOURCE WAVE
+        FILE "01-Gain 1-210708_2234-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 684.41764312062514
+      SNAPOFFS 0
+      LENGTH 7.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.009951 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BB63A893-DCDE-480A-A4DE-FC641ECE1BC6}
+      IID 522
+      NAME "01-Gain 1-210625_2302.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.36900439809237
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6BD1DFF3-82DF-4767-97D6-8BC064293B17}
+      RECPASS 50
+      <SOURCE WAVE
+        FILE "01-Gain 1-210625_2302.wav"
+      >
+      TAKE
+      NAME "01-Gain 1-210625_2302 render 001.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 12.6303377314257
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57729CAE-411E-4377-9C2B-A93E01BF3870}
+      <SOURCE WAVE
+        FILE "01-Gain 1-210625_2302 render 001.wav"
+      >
+      TAKE SEL
+      NAME "01-Gain 1-210708_2234-01.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 18.1583220696085
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 19107565 B
+      GUID {43313B93-8B53-4533-BF3D-2456EB33E5DA}
+      RECPASS 54
+      <SOURCE WAVE
+        FILE "01-Gain 1-210708_2234-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 806.58138581068442
+      SNAPOFFS 0
+      LENGTH 72.56440544868497
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8126B2B0-83E8-8F41-B429-AF9FFC75BBDA}
       IID 488
       NAME "04-Clean 1-210624_2245-02-glued.wav"
@@ -449,9 +562,9 @@
       >
     >
     <ITEM
-      POSITION 920.0948874986284
+      POSITION 924.71337686213724
       SNAPOFFS 0
-      LENGTH 26.16174999999964
+      LENGTH 26.16175000000032
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -548,7 +661,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
-    REC 0 1 1 0 0 0 0
+    REC 1 1 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -646,6 +759,29 @@
       FLOATPOS 0 0 0 0
       FXID {D1D93A0F-2228-1E47-A936-71514A081B5D}
       WAK 0 0
+    >
+    <ITEM
+      POSITION 165.0165625
+      SNAPOFFS 0
+      LENGTH 4.28172916666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {774D2748-43B6-C94A-A7D3-0D14BA610A22}
+      IID 534
+      NAME "04-Gain 2-210715_2138-01.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.55733333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A8AD8CB5-2E10-224E-BA4B-BA85F42AB812}
+      RECPASS 63
+      <SOURCE WAVE
+        FILE "04-Gain 2-210715_2138-01.wav"
+      >
     >
   >
   <TRACK {DA28ECA5-67B7-4447-BF62-4E5D4F16F5E2}
@@ -917,268 +1053,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 301.4931488118666
-      SNAPOFFS 0
-      LENGTH 32
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {1F3F7A04-8A40-8549-A889-889AF7B3F1EE}
-      IID 404
-      NAME "01-Recorded MIDI-glued"
-      VOLPAN 1 0 1 -1
-      SOFFS 0 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {ECC09A25-7E28-8F48-BA0A-EB6E92D4D2A2}
-      <SOURCE MIDI
-        HASDATA 1 960 QN
-        CCINTERP 32
-        POOLEDEVTS {F0AC50B6-A59A-CD4B-B233-42043ACB6FE6}
-        E 0 90 33 45
-        E 0 90 37 45
-        E 0 90 43 50
-        E 1326 80 43 40
-        E 114 90 41 49
-        E 509 80 33 40
-        E 125 80 37 40
-        E 806 90 3c 47
-        E 1 80 41 40
-        E 867 b0 40 00
-        E 27 80 3c 40
-        E 49 b0 40 7f
-        E 16 90 39 48
-        E 0 90 35 3c
-        E 0 90 41 4b
-        E 0 90 32 3d
-        E 1231 80 35 40
-        E 5 80 32 40
-        E 38 80 39 40
-        E 166 90 3f 49
-        E 114 80 41 40
-        E 1326 90 3e 45
-        E 20 80 3f 40
-        E 506 b0 40 00
-        E 266 b0 40 7f
-        E 168 90 3c 4c
-        E 0 90 3a 43
-        E 0 90 33 38
-        E 0 90 37 43
-        E 22 80 3e 40
-        E 1625 80 37 40
-        E 39 80 33 40
-        E 86 80 3c 40
-        E 63 80 3a 40
-        E 1533 b0 40 4a
-        E 42 b0 40 00
-        E 203 90 37 49
-        E 27 b0 40 7f
-        E 68 90 3a 45
-        E 132 90 3e 40
-        E 0 90 43 4f
-        E 1360 80 3a 40
-        E 80 90 46 4f
-        E 29 80 37 40
-        E 204 80 3e 40
-        E 1187 80 43 40
-        E 20 90 4a 53
-        E 19 80 46 40
-        E 662 b0 40 00
-        E 229 b0 40 7f
-        E 50 90 3a 48
-        E 0 90 48 51
-        E 0 90 33 43
-        E 0 90 37 43
-        E 90 80 4a 40
-        E 1101 80 37 40
-        E 85 80 33 40
-        E 115 80 3a 40
-        E 49 90 46 4c
-        E 100 80 48 40
-        E 1340 90 48 49
-        E 24 80 46 40
-        E 936 90 32 39
-        E 0 90 35 41
-        E 0 90 4a 4c
-        E 0 90 39 42
-        E 69 80 48 40
-        E 1844 80 4a 40
-        E 7 90 45 50
-        E 988 80 35 40
-        E 66 80 32 40
-        E 23 80 39 40
-        E 843 90 33 47
-        E 0 90 48 51
-        E 0 90 3a 4a
-        E 0 90 37 47
-        E 93 80 45 40
-        E 549 80 37 40
-        E 105 80 33 40
-        E 41 80 3a 40
-        E 602 80 48 40
-        E 50 90 46 51
-        E 1440 90 43 4a
-        E 11 80 46 40
-        E 949 90 46 51
-        E 0 90 3a 47
-        E 0 90 37 45
-        E 0 90 3e 3d
-        E 81 80 43 40
-        E 1359 90 45 4c
-        E 117 80 46 40
-        E 625 80 3e 40
-        E 4 80 37 40
-        E 80 80 3a 40
-        E 594 80 45 40
-        E 20 90 41 45
-        E 960 90 3e 4e
-        E 0 90 37 4b
-        E 0 90 32 42
-        E 0 90 39 48
-        E 1323 80 41 40
-        E 1294 80 39 40
-        E 44 80 32 40
-        E 69 80 37 40
-        E 1110 90 45 53
-        E 3695 80 3e 40
-        E 145 80 45 00
-        E 0 90 30 45
-        E 0 90 33 45
-        E 0 90 37 45
-        E 0 90 43 50
-        E 1326 80 43 40
-        E 114 90 41 49
-        E 509 80 33 40
-        E 61 80 30 40
-        E 64 80 37 40
-        E 806 90 3c 47
-        E 1 80 41 40
-        E 867 b0 40 00
-        E 27 80 3c 40
-        E 49 b0 40 7f
-        E 16 90 39 48
-        E 0 90 35 3c
-        E 0 90 41 4b
-        E 0 90 32 3d
-        E 1231 80 35 40
-        E 5 80 32 40
-        E 38 80 39 40
-        E 166 90 3f 49
-        E 114 80 41 40
-        E 1326 90 3e 45
-        E 20 80 3f 40
-        E 506 b0 40 00
-        E 266 b0 40 7f
-        E 168 90 3c 4c
-        E 0 90 3a 43
-        E 0 90 33 38
-        E 0 90 37 43
-        E 22 80 3e 40
-        E 1625 80 37 40
-        E 39 80 33 40
-        E 86 80 3c 40
-        E 63 80 3a 40
-        E 1533 b0 40 4a
-        E 42 b0 40 00
-        E 203 90 37 49
-        E 27 b0 40 7f
-        E 68 90 3a 45
-        E 132 90 3e 40
-        E 0 90 43 4f
-        E 1360 80 3a 40
-        E 80 90 46 4f
-        E 29 80 37 40
-        E 204 80 3e 40
-        E 1187 80 43 40
-        E 20 90 4a 53
-        E 19 80 46 40
-        E 662 b0 40 00
-        E 229 b0 40 7f
-        E 50 90 3a 48
-        E 0 90 48 51
-        E 0 90 33 43
-        E 0 90 37 43
-        E 90 80 4a 40
-        E 1101 80 37 40
-        E 85 80 33 40
-        E 115 80 3a 40
-        E 49 90 46 4c
-        E 100 80 48 40
-        E 1340 90 48 49
-        E 24 80 46 40
-        E 936 90 32 39
-        E 0 90 35 41
-        E 0 90 4a 4c
-        E 0 90 39 42
-        E 69 80 48 40
-        E 1844 80 4a 40
-        E 7 90 45 50
-        E 988 80 35 40
-        E 66 80 32 40
-        E 23 80 39 40
-        E 843 90 33 47
-        E 0 90 48 51
-        E 0 90 3a 4a
-        E 0 90 37 47
-        E 93 80 45 40
-        E 549 80 37 40
-        E 105 80 33 40
-        E 41 80 3a 40
-        E 602 80 48 40
-        E 50 90 46 51
-        E 1440 90 43 4a
-        E 11 80 46 40
-        E 949 90 46 51
-        E 0 90 3a 47
-        E 0 90 37 45
-        E 0 90 3e 3d
-        E 81 80 43 40
-        E 1359 90 45 4c
-        E 117 80 46 40
-        E 625 80 3e 40
-        E 4 80 37 40
-        E 80 80 3a 40
-        E 594 80 45 40
-        E 20 90 41 45
-        E 960 90 3e 4e
-        E 0 90 37 4b
-        E 0 90 32 42
-        E 0 90 39 48
-        E 1323 80 41 40
-        E 1294 80 39 40
-        E 44 80 32 40
-        E 69 80 37 40
-        E 1110 90 45 53
-        E 3695 80 3e 40
-        E 145 80 45 00
-        E 0 b0 7b 00
-        CCINTERP 32
-        CHASE_CC_TAKEOFFS 1
-        GUID {68A3FF2A-B466-47BC-9B3A-169034FEC2EF}
-        IGNTEMPO 0 120 4 4
-        SRCCOLOR 658
-        VELLANE -1 272 0
-        CFGEDITVIEW -8173.331246 0.004946 53 12 0 -1 0 0 0 0.5
-        KEYSNAP 0
-        TRACKSEL 252
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 17 1 1 1 1 1 0.125 0 0 1920 1200 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
-      >
-      TAKE
-      NAME "01-Recorded MIDI-glued render 002.wav"
-      TAKEVOLPAN 0 1 -1
-      SOFFS 0
-      PLAYRATE 1.13636363636363 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D89FF6B8-82B9-1544-978D-9CA2954DC2B5}
-      <SOURCE WAVE
-        FILE "/Users/sean/Documents/GitHub/The-New-Sound/Nick/01-Recorded MIDI-glued render 002.wav"
-      >
-    >
   >
   <TRACK {65245A6C-BE5D-4563-9640-CA57C9EAA041}
     NAME Bass
